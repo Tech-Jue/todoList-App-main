@@ -1,0 +1,138 @@
+
+/* Form Styling */
+.new-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #4f0246; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 30rem;
+    width: 20rem;
+  }
+  
+  .new-items input[type="text"] {
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6; 
+    color: #333;
+  }
+  
+  .new-items button {
+    padding: 5px 20px;
+    background-color: #ff99cc; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .new-items button:hover {
+    background-color: #ff66cc; 
+  }
+  
+  .new-items h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff66cc; 
+  }
+  
+  /* List Styling */
+  .new-items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .new-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+  }
+  
+  .new-items li label {
+    margin-right: 10px;
+    color: #333;
+    
+  }
+  
+  .new-items .delete-btn {
+    background-color: #ff66cc; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .new-items .delete-btn:hover {
+    background-color: #ff3399; 
+  }
+
+ 
+@media only screen and (max-width: 768px) {
+    /* styles.css */
+
+.new-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4f0246; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%; 
+    margin-left: 20%;
+   
+}
+
+.new-items input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6; 
+    color: #333;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.search-bar {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold; 
+    /* background-color: black; */
+    display: flex;
+    padding: 5px;
+  }
+
+  
+  .search-bar button {
+    text-align: center;
+    padding: 0;
+    font-size: 35px;
+    width: 15px;
+    display: none;
+  }
+
+ 
+
+}
+/* ... other styles ... */
+
+
+
+ 
